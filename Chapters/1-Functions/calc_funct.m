@@ -28,3 +28,13 @@ xlabel('x^3 vs ∛x')
 ylabel('')
 
 legend('x^3', '∛x')
+
+figure (4);
+x=linspace(-1, 3, 500);
+y3=(x-1).^2;
+plot(x,y3)
+grid on
+title("Calculus 2D Function")
+xlabel('(x-1)^2')
+ylabel('')
+legend('(x-1)^2')
