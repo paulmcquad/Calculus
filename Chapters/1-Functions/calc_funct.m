@@ -18,9 +18,13 @@ ylabel('')
 
 figure (3);
 %x=linspace(-2, 2, 500);
-y=cbrt(x);
+y2=cbrt(x);
 plot(x,y)
+hold on;
+plot(x,y2,'r')
 grid on
 title("Calculus 2D Function")
-xlabel('∛x')
+xlabel('x^3 vs ∛x')
 ylabel('')
+
+legend('x^3', '∛x')
