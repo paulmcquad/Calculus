@@ -24,3 +24,30 @@ grid on;
 
 title('Rad - (Atan)');
 legend('Atan')
+
+figure('name','Trigonometry - Asec vs Acsc');
+
+y4 = asec(x);
+y5 = acsc(x);
+
+plot(x,y4);
+hold on;
+plot(x,y5);
+grid on;
+
+title('Rad - (Asec vs Acsc)');
+legend('Asec', 'Acsc')
+
+%
+%
+%
+
+figure('name','Trigonometry - acot');
+
+y6 = acot(x);
+
+plot(x,y6);
+grid on;
+
+title('Rad - (Acot)');
+legend('Acot')
