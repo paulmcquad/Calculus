@@ -1,6 +1,7 @@
 #figure('Trigonometry');
 figure('name','Trigonometry - Sinh vs Cosh');
-x=[-pi:0.01:pi];
+%x=[-pi:0.01:pi];
+x = -5:0.01:5;
 
 y = sinh(x);
 y2 = cosh(x);

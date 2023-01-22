@@ -1,6 +1,7 @@
 #figure('Trigonometry');
 figure('name','Trigonometry - Asin vs Acos');
-x=[-pi:0.01:pi];
+%x=[-pi:0.01:pi];
+x = -5:0.01:5;
 
 y = asin(x);
 y2 = acos(x);

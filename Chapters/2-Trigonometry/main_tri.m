@@ -1,6 +1,7 @@
 #figure('Trigonometry');
 figure('name','Trigonometry - Sin vs Cos');
-x=[-pi:0.01:pi];
+%x=[-pi:0.01:pi];
+x = -5:0.01:5;
 
 y = sin(x);
 y2 = cos(x);

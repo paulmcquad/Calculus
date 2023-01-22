@@ -1,6 +1,7 @@
 #figure('Trigonometry');
 figure('name','Trigonometry - Sind vs Cosd');
-x=[-pi:0.01:pi];
+%x=[-pi:0.01:pi];
+x = -5:0.01:5;
 
 y = sind(x);
 y2 = cosd(x);
